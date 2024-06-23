@@ -1,3 +1,44 @@
 .main_title {
-  width: 10;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.marvel_container {
+  width: 100%;
+  display: flex;
+  gap: 80px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.marvel_box {
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 20px;
+  border: 1px solid #f5f5f5;
+  cursor: pointer;
+}
+
+.marvel_name {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.marvel_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.footer_text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
 }

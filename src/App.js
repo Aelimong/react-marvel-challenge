@@ -10,7 +10,7 @@ export default function App() {
         <Route exact path={"/"}>
           <Home />
         </Route>
-        <Route path={"/character/:id"}>
+        <Route path={"/character/:characterId"}>
           <Details />
         </Route>
       </Switch>
