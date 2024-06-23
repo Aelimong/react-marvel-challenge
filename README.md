@@ -1,1 +1,1 @@
-# Mavel Character API 사용 챌린지
+# Mavel Character API 챌린지
